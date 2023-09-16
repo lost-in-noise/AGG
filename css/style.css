@@ -67,8 +67,9 @@ nav ul {
 
 input[type="text"] {
     padding: 10px;
-    border: none;
+    border: 2px solid #FFD700;
     border-radius: 5px;
+    color: #323F4A;
 }
 
 button#register {
