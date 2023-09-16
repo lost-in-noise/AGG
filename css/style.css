@@ -52,8 +52,8 @@ nav ul {
     
 }
 
-nav ul li {
-    font-size: 16px;
+.li {
+    font-size: 18px;
     font-family: 'Montserrat-Medium';
     color: #323F4A;
     text-transform: uppercase;
