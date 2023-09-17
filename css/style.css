@@ -72,12 +72,10 @@ input[type="text"] {
     color: #323F4A;
 }
 
-button#register {
-    background-color: #FFD700; 
-    color: white;
-    border: none;
+#register {
     border-radius: 5px;
     padding: 10px 15px;
     margin-left: 10px;
     cursor: pointer;
+    height: 64px;
 }
