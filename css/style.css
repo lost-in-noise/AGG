@@ -121,7 +121,7 @@ input[type="text"] {
 
 .promo-text {
     position: absolute;
-    top: 300px;
+    top: 250px;
     left: 0;
     width: 100%;
     padding: 20px;
@@ -138,4 +138,33 @@ input[type="text"] {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.promo-p {
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Medium';
+    line-height: 40px;
+    font-size: 14px;
+    max-width: 500px;
+    margin-left: 80px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* .promo-section {
+    background: rgba(78, 98, 79, 0.4);
+    max-width: 800px;
+    padding: 20px;
+} */
+.button-yellow {
+    background-color: #FFD700;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'Montserrat-Bold';
+    font-size: 12px;   
+    text-transform: uppercase;
+    margin-left: 80px;
 }
