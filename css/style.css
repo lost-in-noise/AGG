@@ -116,3 +116,26 @@ input[type="text"] {
 .burger-menu.active .bar:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/* main styles */
+
+.promo-text {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1; 
+    background-color: transparent; 
+}
+.promo-h2 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    max-width: 700px;
+    margin-left: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
