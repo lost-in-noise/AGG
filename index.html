@@ -8,15 +8,22 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="icon" type="image/x-icon" href="/images/AGG_Logo-41.png">
+    <link rel="icon" type="image/x-icon" href="/images/AGG_Logo-41.png" />
   </head>
   <body>
-    <header>
+    <header class="flex-header" id="navDiv">
+        <div class="burger-wraper">
+      <div class="burger-menu" id="burgerBar">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
       <a class="logo" href="index.html">
         <img src="images/AGG_Logo-09.png" alt="Logo" />
       </a>
-      <nav>
-        <ul>
+    </div>
+      <nav class="navigation" id="navBar">
+        <ul class="nav-ul">
           <li><a class="li" href="tours.html">Tours</a></li>
           <li><a class="li" href="about.html">About Us</a></li>
           <li><a class="li" href="contact.html">Contact</a></li>
@@ -25,6 +32,7 @@
       </nav>
       <div class="search">
         <input type="text" placeholder="Search..." />
+
         <img
           id="register"
           src="images/user-circle-svgrepo-com.svg"
@@ -33,6 +41,7 @@
       </div>
     </header>
     <div class="background"></div>
+
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,3 +1,45 @@
 @media (max-width: 900px) {
     
+   
+    .navigation {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+   
+    .flex-header.mobActive {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/burger-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 20px;
+        transition: right 0.4s;
+        flex-direction: column;
+        align-items: normal;
+        justify-content: flex-start;
+    }
+    .nav-ul {
+        flex-direction: column;
+        
+        width: 100%;
+        height: 100%; 
+    }
+    .navigation.activeNav {
+        display: block;
+        
+    }
+    .li {
+        color: #ffd700;
+    }
+
+    
+
 }
