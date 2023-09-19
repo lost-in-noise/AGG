@@ -64,7 +64,6 @@ body {
 .search {
     display: flex;
     align-items: center;
-   
 }
 
 
@@ -72,7 +71,11 @@ input[type="text"] {
     padding: 10px;
     border: 2px solid #FFD700;
     border-radius: 5px;
-    color: #323F4A;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.50);
+}
+::placeholder {
+    color: #FFF;
 }
 
 #register {
@@ -167,4 +170,5 @@ input[type="text"] {
     font-size: 12px;   
     text-transform: uppercase;
     margin-left: 80px;
+    margin-top: 30px;
 }
