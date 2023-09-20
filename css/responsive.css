@@ -53,4 +53,15 @@
     .search {
         display: none;
     }
+    .promo-p {
+        height: 0px;
+        width: 0px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 470px) {
+    .promo-h2 {
+        font-size: 30px;
+    }
 }
