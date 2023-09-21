@@ -447,3 +447,17 @@ input[type="text"] {
   justify-content: space-around;
   margin-top: 78px;
 }
+
+/* terms */
+.terms {
+    color: #fff;
+    margin-top: 125px;
+    padding: 20px;
+    font-family: "Montserrat-Medium";
+}
+.policy {
+    color: #fff;
+    margin-top: 125px;
+    padding: 20px;
+    font-family: "Montserrat-Medium";
+}
