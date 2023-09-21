@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Email: ' + email);
         console.log('Message: ' + message);
 
-        // Optionally, clear the form fields after submission
+
         contactForm.reset();
     });
 });

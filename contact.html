@@ -12,85 +12,128 @@
   </head>
   <body class="inner-body">
     <header class="inner-header" id="navDiv">
-        <div class="burger-wraper">
-          <div class="burger-menu" id="burgerBar">
-            <div class="bar-in"></div>
-            <div class="bar-in"></div>
-            <div class="bar-in"></div>
-          </div>
-          <a class="logo-in" href="index.html">
-            
-
-            <picture class="picture">
-              <source
-                media="(min-width: 420px)"
-                srcset="images/AGG_Logo-13.png"
-              />
-              <img src="images/AGG_Logo-41.png" alt="logo" />
-            </picture> 
-
-          </a>
+      <div class="burger-wraper">
+        <div class="burger-menu" id="burgerBar">
+          <div class="bar-in"></div>
+          <div class="bar-in"></div>
+          <div class="bar-in"></div>
         </div>
-        <nav class="navigation" id="navBar">
-          <ul class="nav-ul">
-            <li><a class="li-in" href="index.html">Home</a></li>
-            <li><a class="li-in" href="tours.html">Tours</a></li>
-            <li><a class="li-in" href="about.html">About Us</a></li>
-            <li><a class="li-in" href="contact.html">Contact</a></li>
-            <li><a class="li-in" href="blog.html">Blog</a></li>
-          </ul>
-        </nav>
-        
-        
-        <!-- <div class="user-button-in">
+        <a class="logo-in" href="index.html">
+          <picture class="picture">
+            <source
+              media="(min-width: 420px)"
+              srcset="images/AGG_Logo-13.png"
+            />
+            <img src="images/AGG_Logo-41.png" alt="logo" />
+          </picture>
+        </a>
+      </div>
+      <nav class="navigation" id="navBar">
+        <ul class="nav-ul">
+          <li><a class="li-in" href="index.html">Home</a></li>
+          <li><a class="li-in" href="about.html">About Us</a></li>
+          <li><a class="li-in" href="contact.html">Contact</a></li>
+          <li><a class="li-in" href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+
+      <!-- <div class="user-button-in">
           <img
             id="register"
             src="images/user-circle-svgrepo-com.svg"
             alt="user"
           />
         </div> -->
-      </header>
-      <main class="contact-main">
-        <h1>Contact Us</h1>
+    </header>
+    <main class="contact-main">
+      <section>
+        <img
+          class="image-section"
+          src="images/AGG_Logo-breadcrumbs.png"
+          alt="logo"
+        />
+        <h1 class="contact-h1">Contact Us</h1>
+        <p class="contact-p">
+          if you are interested in our service, please contact us.
+        </p>
+
         <div class="contact-form">
-            <form id="contact-form">
-                <label for="name" class="black-label">Name:</label>
-                <input type="text" id="name" name="name" required>
+          <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
 
-                <button type="submit">Submit</button>
-            </form>
+            <button type="submit">Submit</button>
+          </form>
         </div>
-      </main>
-      <footer class="footer-bg">
-        <div class="container-footer">
-          <div class="footer-logo">
-            <a href="index.html">
-              <img src="images/AGG_Logo-27.png" alt="logo-white" />
-            </a>
+      </section>
+
+      <section class="map-section">
+        <div class="left-block-contact">
+          <h3 class="contact-title">Contact information</h3>
+          <ul>
+            <li class="address-li">
+              <span class="contact-info">Address:</span>
+              <a class="contact-li" 
+                href="https://www.google.com/maps/place/163+Davit+Aghmashenebeli+Ave,+T'bilisi/@41.71882,44.7904851,17z/data=!3m1!4b1!4m5!3m4!1s0x404472d331333c7d:0x6b6f1e17f7429ddb!8m2!3d41.71882!4d44.7904851?entry=ttu"
+                target="_blank"
+                >David Aghmashenebeli Alley 163</a
+              >
+            </li>
+            <li class="tel-li">
+              <span class="contact-info">Tel.:</span>
+              <a class="contact-li" href="callto:+995 32 222 222">+995 32 222 222</a>
+            </li>
+            <li>
+              <span class="contact-info">Email:</span>
+              <a
+                class="contact-li" href="mailto:contact@agg.travel?subject=The%20subject%20of%20the%20mail"
+                >contact@agg.travel</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="map-element">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.078727021835!2d44.7904851!3d41.71882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d331333c7d%3A0x6b6f1e17f7429ddb!2s163%20Davit%20Aghmashenebeli%20Ave%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1689020902629!5m2!1sen!2sge"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-bg">
+      <div class="container-footer">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="images/AGG_Logo-27.png" alt="logo-white" />
+          </a>
+        </div>
+
+        <div class="footer-menu">
+          <div class="footer-list">
+            <p>AGG © 2023. All rights reserved.</p>
           </div>
-  
-          <div class="footer-menu">
-            <div class="footer-list">
-              <p>AGG © 2023. All rights reserved.</p>
-            </div>
-            <div class="footer-list">
-              <h3 class="footer-h3">Information</h3>
-              <ul class="footer-text">
-                <li> <a href="#">FAQs</a> </li>
-                <li class="li2"><a href="#">Terms of Service</a></li>
-                <li><a href="#">Useful information</a></li>
-                <li class="li4"><a href="#">Privacy Policy</a></li>
-              </ul>
-            </div>
+          <div class="footer-list">
+            <h3 class="footer-h3">Information</h3>
+            <ul class="footer-text">
+              <li><a href="#">FAQs</a></li>
+              <li class="li2"><a href="#">Terms of Service</a></li>
+              <li><a href="#">Useful information</a></li>
+              <li class="li4"><a href="#">Privacy Policy</a></li>
+            </ul>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
