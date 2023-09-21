@@ -74,7 +74,7 @@ input[type="text"] {
     padding: 10px;
     border: 2px solid #FFD700;
     border-radius: 5px;
-    color: #ffffff;
+    color: #0a0a0a;
     background: rgba(255, 255, 255, 0.50);
 }
 ::placeholder {
@@ -291,6 +291,108 @@ input[type="text"] {
     margin-top: 200px;
     justify-content: space-around;
 }
+.about-section1:nth-child(3) {
+    margin-bottom: 100px;
+}
 
 
+/* footer */
+.footer-bg {
+    background-color: #323F4A;
+    padding: 96px 0;
+}
+.container-footer {
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-menu {
+    display: flex;
+    color: #FFFFFF;
+    max-width: 912px;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-menu a {
+    color: #FFF;
+}
+.footer-logo {
+    width: 20%;
+    
+}
+.footer-logo img {
+    max-width: 150px;
+}
+.footer-list {
+    width: 32%;
+    
+}
+.footer-list p {
+    padding-top: 120px;
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    
+}
+.footer-h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.footer-text {
+    font-family: 'Montserrat-Medium';
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
 
+.li2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.li4 {
+    margin-top: 8px;
+}
+
+
+/* contact form */
+/* ... Previous CSS code ... */
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+.black-label {
+    color: black;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+}
+
+.contact-main {
+    background-color: #FFF;
+    margin-top: 125px;
+    padding: 40px;
+}
